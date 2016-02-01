@@ -38,7 +38,7 @@ $(document).ready(function() {
 		$el.append('<p>Last Name: ' + empInfo.empLastName + '</p>');
 		$el.append('<p>ID Number: ' + empInfo.empIdNum + '</p>');
 		$el.append('<p>Job Title: ' + empInfo.empJobTitle + '</p>');
-		$el.append('<p id=sal>Anual Salary: ' + empInfo.empAnualSalary + '</p>');
+		$el.append('<p id=sal>Annual Salary: ' + empInfo.empAnualSalary + '</p>');
 		$el.append('<button id=delButton>Delete</button>'); //adds button to delete to each block of people
 	}
 

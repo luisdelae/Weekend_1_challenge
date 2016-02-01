@@ -25,7 +25,7 @@ $(document).ready(function() {
 	});
 
 	function updateCostOfEmpSalary() { //function to replace current total cost of salary with new total cost of salary
-		$('#empCost').replaceWith('<p id=empCost>Total Cost of Salary: $' + costOfSalary + '</p>');
+		$('#empCost').replaceWith('<p id=empCost>Total Monthly Cost of Salary: $' + costOfSalary/12 + '</p>');
 	}
 
 
